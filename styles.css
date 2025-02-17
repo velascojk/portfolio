@@ -158,8 +158,8 @@ nav {
 }
 
 .about-me__picture--mask {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
@@ -343,48 +343,48 @@ text-decoration: none;
     color: white;
 }
 
-/* INTERESTED SKILLS */
+/* CERTIFICATIONS */
 
-.interest__img {
+.certification__img {
     width: 100%;
     max-width: 125px;
     transition: all 300ms ease;
 }
 
-.interest:hover .interest__img {
+.certification:hover .certification__img {
     filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9);
 }
 
-.interest {
+.certification {
     width: 25%;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.interest__img--wrapper {
+.certification__img--wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px 16px;
 }
 
-.interest__list {
+.certification__list {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.interest__name {
+.certification__name {
     position: absolute;
     bottom: 0;
     transform: scale(0);
     transition: all 300ms;
     font-size: 20px;
 }
-.interest:hover .interest__name {
+.certification:hover .certification__name {
     transform: scale(1);
     opacity: 1;
 }
@@ -434,6 +434,51 @@ text-decoration: none;
     opacity: 1;
 }
 
+/* INTERESTED SKILLS */
+
+.interest__img {
+    width: 100%;
+    max-width: 125px;
+    transition: all 300ms ease;
+}
+
+.interest:hover .interest__img {
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+}
+
+.interest {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.interest__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.interest__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.interest__name {
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    font-size: 20px;
+}
+.interest:hover .interest__name {
+    transform: scale(1);
+    opacity: 1;
+}
 
 /* FOOTER  */
 

@@ -129,10 +129,10 @@ nav {
     background-color: #06a17a;
 }
 
-.personal__logo {
-    height: 80px;
-    width: 100px;
-    margin: 0 12px;
+.portfolio__header {
+    color: #242424;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 /* ABOUT ME */

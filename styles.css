@@ -223,11 +223,11 @@ nav {
     }
 }
 
-/* .about-me__img--container {
+.about-me__img--container {
     flex: 1;
     display: flex;
     align-items: center;
-} */
+}
 
 .about-me__img {
     width: 100%;

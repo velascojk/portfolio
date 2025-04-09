@@ -557,7 +557,7 @@ footer {
     opacity: 1;
 }
 
-/* PROJECT 1 PAGE */
+/* PROJECT 1 [VIRTUALBOX PAGE] */
 
 #project-virtualbox {
     min-height: 100vh;
@@ -577,6 +577,9 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+.project-virtualbox__warning {
+    color: red;
 }
 
 .project-virtualbox__picture--mask {
@@ -668,6 +671,125 @@ footer {
 }
 
 .project-virtualbox__keyfeature {
+   margin-bottom: 20px;
+   animation: fade-up 650ms 400ms backwards;
+}
+
+/* PROJECT 2 [CLOUD WEB APP. PAGE] */
+
+#project-cloudwebapp {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cloudwebapp__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cloudwebapp__info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project-cloudwebapp__warning {
+    color: red;
+}
+
+.project-cloudwebapp__picture--mask {
+    /* width: 100px;
+    height: 100px; */
+    overflow: hidden;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    margin-bottom: 36px;
+    animation: animate-profile-picture 800ms 200ms backwards;
+}
+
+@keyframes animate-profile-picture {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.project-cloudwebapp__picture {
+    width: 100%;
+    transform: scale(1.2);
+    padding: 8px;
+}
+
+.project-cloudwebapp__info--title {
+    margin-bottom: 20px;
+    animation: fade-up 650ms 400ms backwards;
+    color: #008060;
+}
+
+.project-cloudwebapp__info--subtitle {
+    margin-bottom: 16px;
+    animation: fade-up 650ms 400ms backwards;
+}
+
+.project-cloudwebapp__info--para {
+    font-size: 18px;
+    margin-bottom: 28px;
+    animation: fade-up 650ms 400ms backwards;
+}
+
+.project-cloudwebapp__logo {
+    height: 90px;
+}
+
+.project-cloudwebapp__link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+.project-cloudwebapp__links {
+    animation: fade-up 650ms 400ms backwards;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* .about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+} */
+
+.project-cloudwebapp__img {
+    width: 100%;
+    animation: fade-in 1200ms 800ms backwards;
+}
+
+.project-cloudwebapp__keyfeatures {
+    /* display: flex; */
+    margin-bottom: 50px;
+    animation: fade-up 650ms 400ms backwards;
+}
+
+.project-cloudwebapp__keyfeature {
    margin-bottom: 20px;
    animation: fade-up 650ms 400ms backwards;
 }

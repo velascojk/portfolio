@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J.K. Velasco</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/pfp3_photoshopped2.jpg">
+    <script src="https://kit.fontawesome.com/910b88c4e7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <section id="project-cloudwebapp-entry">
+    <nav>
+      <div class="nav__link">
+        <a a href="index.html" class="portfolio__header">Portfolio</a>
+      </div>
+      </div>
+      <ul class="nav__link--list">
+        <li class="nav__link">
+          <a href="index.html#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
+        </li>
+        <li class="nav__link">
+          <a href="index.html#certifications" class="nav__link--anchor link__hover-effect link__hover-effect--black">Certifications</a>
+        </li>
+        <li class="nav__link">
+          <a href="index.html#skills" class="nav__link--anchor link__hover-effect link__hover-effect--black">Skills</a>
+        </li>
+        <li class="nav__link">
+          <a href="mailto:jkvelasco2018@gmail.com" class="nav__link--anchor nav__link--anchor-primary">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex flex-1">
+      <div class="project-cloudwebapp__info row">
+        <div class="project-cloudwebapp__info--container">
+          <figure class="project-cloudwebapp__picture--mask">
+            <img src="./assets/project-cloudwebapp-bg1.png" class="project-cloudwebapp__picture" alt="Screenshot of VirtualBox main menu with a lab setup" />
+          </figure>
+          <h1 class="project-cloudwebapp__info--title">
+            🌐Deploying a Simple Web App on AWS <p class="project-cloudwebapp__warning"><strong>WORK IN PROGRESS!</strong></p>
+          </h1>
+          <h2 class="project-cloudwebapp__info--subtitle">
+            <span class="text--green">Key Features</span>
+          </h2>
+          <ul class="project-cloudwebapp__keyfeatures">
+                <p class="project-cloudwebapp__keyfeature"><strong>Project Overview:</strong> I deployed a basic web app on an AWS EC2 instance using Apache as the web server. The project includes setting up firewall rules, serving an HTML page, and beginning the process of enabling HTTPS.</p>
+                <ol>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Launched an EC2 Instance on AWS:</strong>
+                    <br>
+                    Created a free-tier virtual machine using Amazon Linux 2 as the cloud server.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Configured Security Group Rules:</strong>
+                    <br>
+                    Allowed inbound traffic on ports <code>22 (SSH)</code>, <code>80 (HTTP)</code>, and <code>443 (HTTPS)</code> through AWS firewall settings.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Connected to the Server Using SSH:</strong>
+                    <br>
+                    Used a terminal and a <code>.pem</code> key file to securely access the EC2 instance.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Installed Apache Web Server:</strong>
+                    <br>
+                    Installed and enabled Apache (httpd) to serve web pages from the server.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Created a Simple HTML Web Page:</strong>
+                    <br>
+                    Wrote an <code>index.html</code> file and placed it in Apache web root directory.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Adjusted Firewall Rules on the Server:</strong>
+                    <br>
+                    Verified or configured <code>firewalld</code> or <code>iptables</code> to allow external HTTP/HTTPS traffic.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Tested the Web App in a Browser:</strong>
+                    <br>
+                    Entered the EC2 public IP in a browser and successfully viewed the hosted web page.
+                  </li>
+                  <li class="project-cloudwebapp__keyfeature">
+                    <strong>Started Configuring HTTPS (In Progress):</strong>
+                    <br>
+                    Initiated SSL setup using Certbot and OpenSSL to enable secure HTTPS access.
+                  </li>
+                </ol>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="./assets/FooterLogo.png" alt="" class="footer__logo--img">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://github.com/velascojk" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/velascojk/" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">LinkedIn</a>
+        <a href="mailto:jkvelasco2018@gmail.com" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Email</a>
+        <a href="./assets/JanKevinVelascoResume2025.pdf" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Resume</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+         

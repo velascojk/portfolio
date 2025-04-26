@@ -10,94 +10,409 @@
     <script src="https://kit.fontawesome.com/910b88c4e7.js" crossorigin="anonymous"></script>
     <script src="skills-carousel.js"></script>
   </head>
-  <body>
-    <section id="about-me">
-      <nav>
-        <div class="nav__link">
-          <a a href="index.html" class="portfolio__header">Portfolio</a>
+  
+    <body>
+      <!-- About Me (Header) Section -->
+      <section id="about-me" class="about-me">
+        <nav class="nav">
+          <div class="nav__link">
+            <a href="index.html" class="portfolio__header">J.K.'s Portfolio</a>
+          </div>
+          <ul class="nav__link--list">
+            <li class="nav__link"><a href="#certifications" class="nav__link--anchor link__hover-effect link__hover-effect--black">Certifications</a></li>
+            <li class="nav__link"><a href="#skills" class="nav__link--anchor link__hover-effect link__hover-effect--black">Skills</a></li>
+            <li class="nav__link"><a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a></li>
+            <li class="nav__link"><a href="mailto:velascojankevin@gmail.com" class="nav__link--anchor nav__link--anchor-primary">Contact</a></li>
+          </ul>
+        </nav>
+      
+        <div class="about-me__container">
+          <figure class="about-me__picture--mask">
+            <img src="./assets/IRLPhoto.jpg" class="about-me__picture" alt="Picture of J.K. Velasco" />
+          </figure>
+      
+          <h1 class="about-me__info--title fade-in-title text--green">
+            Entry-Level IT Support & Cloud Security Enthusiast
+          </h1>
+      
+          <p class="about-me__info--subtitle">
+            Passionate about delivering reliable technical support and secure cloud solutions!
+          </p>
+      
+          <p class="about-me__info--para">
+            CompTIA trifecta certified IT professional with a hands-on approach to troubleshooting, cloud services, and cybersecurity. Proficient in Linux, AWS, Microsoft 365, and modern support tools. Dedicated to driving user success and expanding technical expertise daily.
+          </p>
+      
+          <div class="about-me__links">
+            <a href="https://www.linkedin.com/in/velascojk/" class="about-me__link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/velascojk" class="about-me__link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:velascojankevin@gmail.com" class="about-me__link"><i class="far fa-envelope"></i></a>
+            <a href="./assets/JanKevinVelasco_Resume.pdf" class="about-me__link" target="_blank"><i class="fas fa-file-pdf"></i></a>
+          </div>
+
+          <a href="#certifications" class="about__scroll-down">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+
         </div>
-        <ul class="nav__link--list">
-          <li class="nav__link">
-            <a
-              href="#projects"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Projects</a>
-          </li>
-          <li class="nav__link">
-            <a
-              href="#certifications"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Certifications</a>
-          </li>
-          <li class="nav__link">
-            <a
-              href="#skills"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Skills</a>
-          </li>
-          <li class="nav__link">
-            <a href="mailto:jkvelasco2018@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
-              >Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="flex flex-1">
-        <div class="about-me__info row">
-          <div class="about-me__info--container">
-            <figure class="about-me__picture--mask">
-              <img
-                src="./assets/pfp3_photoshopped2.jpg"
-                class="about-me__picture"
-                alt="Picture of me!"
-              />
-            </figure>
-            <h1 class="about-me__info--title">
-              Hello, I'm <strong class="text--green">J.K.</strong>!<span class="peacesign">✌️</span>
+      </section>            
+
+      <div class="section__divider"></div>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="certifications">
+        <div class="container">
+          <div class="row">
+            <h1 class="certifications__title">
+              <span class="text--green">Certifications</span>
             </h1>
-            <p class="about-me__info--para">
-              I'm a motivated
-              <strong class="text--green">IT student</strong>
-              with a strong focus on cybersecurity and networking. 
-              Passionate about problem-solving, staying updated with industry trends, and contributing to IT.
-              Eager to apply technical skills and gain hands-on experience! 
+            <p class="certifications__subtitle">
+              Recognized certifications validating my technical knowledge and skills.
             </p>
-            <div class="about-me__links">
-              <a
-                href="https://www.linkedin.com/in/velascojk/"
-                class="about-me__link"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://github.com/velascojk"
-                class="about-me__link"
-                target="_blank"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="mailto:velascojankevin@gmail.com" 
-              class="about-me__link">
-                <i class="far fa-envelope"></i>
-              </a>
-              <a
-                href="./assets/JanKevinVelasco_Resume.pdf" 
-                class="about-me__link"
-                target="_blank"
-              >
-                <i class="fas fa-file-pdf"></i>
-              </a>
+          </div>
+      
+          <div class="certifications__wrapper">
+            <div class="certifications__list">
+              <div class="certifications__item">
+                <div class="certifications__hover-effect">
+                  <figure class="certifications__img--wrapper">
+                    <img src="https://images.credly.com/size/340x340/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob" alt="CompTIA A+" class="certifications__logo" />
+                  </figure>
+                  <p class="certifications__name">CompTIA A+</p>
+                </div>
+              </div>
+      
+              <div class="certifications__item">
+                <div class="certifications__hover-effect">
+                  <figure class="certifications__img--wrapper">
+                    <img src="https://images.credly.com/size/340x340/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob" alt="CompTIA Network+" class="certifications__logo" />
+                  </figure>
+                  <p class="certifications__name">CompTIA Network+</p>
+                </div>
+              </div>
+      
+              <div class="certifications__item">
+                <div class="certifications__hover-effect">
+                  <figure class="certifications__img--wrapper">
+                    <img src="https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+" class="certifications__logo" />
+                  </figure>
+                  <p class="certifications__name">CompTIA Security+</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="projects">
+      </section>
+      
+    <div class="section__divider"></div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
       <div class="container">
         <div class="row">
-          <h1 class="section__title">
-             <span class="text--green">Projects</span>
+          <h1 class="skills__title">
+            <span class="text--green">Professional Skill Set</span>
           </h1>
+          <p class="skills__subtitle">
+            Cloud Platforms, Tools, and Languages I work with
+          </p>
+      </div>
+    
+          <div class="skills__carousel">
+            <div class="skills__wrapper">
+              <div class="skill__list">
+    
+                <!-- Skills Set 1 -->
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">AWS</span>
+                  </div>
+                </div>
+    
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Linux</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" alt="ServiceNow" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">ServiceNow</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Jira</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/confluence-seeklogo.svg" alt="Confluence" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Confluence</span>
+                  </div>
+                </div>
+    
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/Microsoft365Copilot.svg" alt="Microsoft 365" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Microsoft 365</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/github-mark.png" alt="GitHub" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">GitHub</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio Code" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Visual Studio Code</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Python</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Datadog_logo.svg" alt="Datadog" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Datadog</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/TableauLogo.png" alt="Tableau" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Tableau</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">HTML</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">CSS</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/VirtualBox_2024_Logo.svg" alt="VirtualBox" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">VirtualBox</span>
+                  </div>
+                </div>
+    
+                <!-- Duplicated Skills Set for Infinite Scroll -->
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">AWS</span>
+                  </div>
+                </div>
+    
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Linux</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" alt="ServiceNow" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">ServiceNow</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Jira</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/confluence-seeklogo.svg" alt="Confluence" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Confluence</span>
+                  </div>
+                </div>
+    
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/Microsoft365Copilot.svg" alt="Microsoft 365" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Microsoft 365</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/github-mark.png" alt="GitHub" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">GitHub</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio Code" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Visual Studio Code</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Python</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Datadog_logo.svg" alt="Datadog" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Datadog</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="./assets/TableauLogo.png" alt="Tableau" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">Tableau</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">HTML</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">CSS</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__hover-effect">
+                    <figure class="skill__img--wrapper">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/VirtualBox_2024_Logo.svg" alt="VirtualBox" class="skill__img" />
+                    </figure>
+                    <span class="skill__name">VirtualBox</span>
+                  </div>
+                </div>
+              </div>
+    
+              </div> <!-- End skill__list -->
+            </div> <!-- End skills__wrapper -->
+          </div> <!-- End skills-carousel -->
+    
+        </div>
+      </div>
+    </section>
+
+    <div class="section__divider"></div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="projects__title"><span class="text--green">Technical Projects</span></h1>
+          <p class="projects__subtitle">Hands-on IT and Cloud projects demonstrating troubleshooting, configuration, and cloud deployment skills.</p>
+  
+          <div class="projects__list">
           <ul class="project__list">
             <li class="project">
               <div class="project__wrapper">
@@ -125,7 +440,7 @@
                     VirtualBox, Windows Server 2016
                   </h4>
                   <p class="project__description--para">
-                    A practice lab replicating IT: Entry Level Helpdesk tasks using VirtualBox.
+                    A practice lab replicating IT: Helpdesk tasks using VirtualBox.
                   </p>
                   <div class="project__description--links">
                     <a href="project-virtualbox.html"class="project__description--link project__hover-effect project__hover-effect--black">View more!</a>
@@ -134,266 +449,6 @@
               </div>
             </li>
           </ul>
-        </div>
-      </div>
-    </section>
-    <section id="certifications">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span class="text--green">Professional Certifications</span>
-          </h1>
-          <div class="certification__list">
-          <div class="certification">
-              <figure class="certification__img--wrapper">
-                <img
-                  src="./assets/a-logo-jpeg.png"
-                  alt=""
-                  class="certification__img"
-                />
-              </figure>
-              <span class="certification__name">A+</span>
-            </div>
-            <div class="certification">
-              <figure class="certification__img--wrapper">
-                <img
-                  src="./assets/networkplus-logo.png"
-                  alt=""
-                  class="certification__img"
-                />
-              </figure>
-              <span class="certification__name">Network+</span>
-            </div>
-            <div class="certification">
-              <figure class="certification__img--wrapper">
-                <img
-                  src="./assets/securityplus-logo.png"
-                  alt=""
-                  class="certification__img"
-                />
-              </figure>
-              <span class="certification__name">Security+</span>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="skills" class="skills-section">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span class="text--green">Skills</span>
-          </h1>
-    
-          <div class="skills-carousel">
-            <div class="skills__wrapper">
-              <div class="skill__list">
-    
-                <!-- Skills Set 1 -->
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">AWS</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Python</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Linux</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="./assets/Microsoft365Copilot.svg" alt="Microsoft 365" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Microsoft 365</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Jira</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" alt="ServiceNow" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">ServiceNow</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="./assets/github-mark.png" alt="GitHub" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">GitHub</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">JavaScript</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">CSS</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">HTML</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio Code" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">VS Code</span>
-                  </div>
-                </div>
-    
-                <!-- Duplicated Skills Set for Infinite Scroll -->
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">AWS</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Python</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Linux</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="./assets/Microsoft365Copilot.svg" alt="Microsoft 365" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Microsoft 365</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">Jira</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" alt="ServiceNow" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">ServiceNow</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="./assets/github-mark.png" alt="GitHub" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">GitHub</span>
-                  </div>
-                </div>
-    
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">JavaScript</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">CSS</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">HTML</span>
-                  </div>
-                </div>
-
-                <div class="skill">
-                  <div class="skill__hover-effect">
-                    <figure class="skill__img--wrapper">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio Code" class="skill__img" />
-                    </figure>
-                    <span class="skill__name">VS Code</span>
-                  </div>
-                </div>
-    
-              </div> <!-- End skill__list -->
-            </div> <!-- End skills__wrapper -->
-          </div> <!-- End skills-carousel -->
-    
         </div>
       </div>
     </section>
@@ -433,5 +488,24 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const aboutMeContainer = document.querySelector('.about-me__container');
+        if (!aboutMeContainer) return; // extra safety
+    
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              aboutMeContainer.classList.add('fade-up-visible');
+              observer.unobserve(aboutMeContainer); // stop observing after it fades in
+            }
+          });
+        }, { threshold: 0.3 });
+    
+        observer.observe(aboutMeContainer);
+      });
+    </script>    
+
   </body>
 </html>
